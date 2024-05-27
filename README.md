@@ -1,13 +1,11 @@
-## מיני פרויקט בבסיסי נתונים- ניהול מערכת שיעורים במכון כושר
-מגישות: אסתר נדלר-איצקוביץ וצפורה מארוקו
+![תמונה של WhatsApp‏ 2024-05-20 בשעה 23 00 39_bd5457db](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/91e6cd1f-f118-4031-967f-59346bd6ec59)## מיני פרויקט בבסיסי נתונים- ניהול מערכת תכניות אימון (כושר) אישיות
+מגישות:
+טובה רוטנשטיין-322451444
+ושרי זילברליכט-325324374
 
-## תיאור כללי 
-המערכת שלנו עוסקת בניהול מערכת המידע של קורסים ושיעורים במכון כושר, וכוללת את הישויות הבאות:
-מדריכים, מתאמנים, קורסים (כגון פילאטיס, אירובי), שיעורים (שיהוו מפגש של קורס מסוים) וכן את החדר הפיזי אליו משויך השיעור.
-בהמשך נציג שאילתות שונות שיעזרו לנו לדלות מידע מהנתונים וכן לערוך שינויים על הטבלאות הקיימות..
-
-## תוכן עניינים
-- [שלב א](#שלב-א)
+# תוכן עניינים
+- [מבוא](#מבוא)
+- [שלב 1](#שלב-1)
   - [דיאגרמת ERD](#דיאגרמת-erd)
   - [דיאגרמת DSD](#דיאגרמת-dsd)
   - [תוכן קובץ ה-CreateTables](#תוכן-קובץ-ה-createtables)
@@ -18,115 +16,115 @@
     - [הכנסת נתונים ע"י תוכנית Python](#הכנסת-נתונים-עי-תוכנית-python)
   - [יצירת קובץ הגיבוי](#יצירת-קובץ-הגיבוי)
 
+## מבוא 
+המערכת שלנו עוסקת בניהול מערכות המידע של תכניות אימון (כושר) אישיות, וכוללת את הישויות הבאות:
+מדריכים, מתאמנים, אימונים (כגון פילאטיס, אירובי), אימונים בפועל (אימון מסויים בין מאמן ומתאמן) וכן את אביזרי הכושר עבור כל אימון.
+בהמשך נציג שאילתות שונות שיעזרו לנו לדלות מידע מהנתונים וכן לערוך שינויים על הטבלאות הקיימות..
 
-## שלב א 
+#
+
+
+## שלב 1
 
 ### דיאגרמת ERD
-<img src="https://github.com/EsterNadler/DataBase-Project/assets/116155777/736b99a2-40f8-4dab-8653-52c03f412ab9" alt="1דיאגרמה" width="1000">
+
+![תמונה של WhatsApp‏ 2024-05-20 בשעה 23 00 39_bd5457db](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/924d2061-f5b3-4c5e-b851-159f159a4ab9)
+
+
+
 
 ### דיאגרמת DSD
 <img src="https://github.com/EsterNadler/DataBase-Project/assets/116155777/1d3dc8c2-b440-410f-8765-046a4418abf9" alt="2דיאגרמה" width="1000">
 
-### תוכן קובץ ה CreateTables:
+### פקודת CreateTables:
 ```sh
-CREATE TABLE Gym_Class
+ CREATE TABLE Person
 (
-  ClassId INT NOT NULL,
-  ClassName VARCHAR2(50) NOT NULL,
-  MinAge INT NOT NULL,
-  MaxAge INT NOT NULL,
-  Duration INT NOT NULL,
-  PRIMARY KEY (ClassId)
-);
-
-CREATE TABLE Room
-(
-  Capacity INT NOT NULL,
-  RoomNum INT NOT NULL,
-  RoomType VARCHAR2(50) NOT NULL,
-  PRIMARY KEY (RoomNum)
-);
-
-CREATE TABLE Person
-(
-  PersonId INT NOT NULL,
-  BirthDate DATE NOT NULL,
-  FirstName VARCHAR2(20) NOT NULL,
-  LastName VARCHAR2(30) NOT NULL,
-  City VARCHAR2(30) NOT NULL,
-  Address VARCHAR2(50) NOT NULL,
-  HouseNum INT NOT NULL,
-  Email VARCHAR2(40),
-  Gender VARCHAR2(1) NOT NULL,
-  PRIMARY KEY (PersonId)
+  Person_ID NUMERIC(9) NOT NULL,
+  First_Name VARCHAR2(30) NOT NULL,
+  Last_Name VARCHAR2(30) NOT NULL,
+  Birth_Date DATE NOT NULL,
+  City VARCHAR2(30) NULL,
+  Street VARCHAR2(30) NULL,
+  House_Number NUMERIC(5) NOT NULL,
+  Email VARCHAR2(35),
+  Main_Phone NUMERIC(13) NOT NULL,
+  PRIMARY KEY (Person_ID)
 );
 
 CREATE TABLE Trainer
 (
-  License VARCHAR2(20) NOT NULL,
-  Experience FLOAT NOT NULL,
-  PersonId INT NOT NULL,
-  PRIMARY KEY (PersonId),
-  FOREIGN KEY (PersonId) REFERENCES Person(PersonId)
+  Seniority NUMERIC(2) NOT NULL,
+  Salary DECIMAL(7,2) NOT NULL,
+  Rating NUMERIC(1) NOT NULL,
+  Person_ID NUMERIC(9) NOT NULL,
+  PRIMARY KEY (Person_ID),
+  FOREIGN KEY (Person_ID) REFERENCES Person(Person_ID)
 );
 
-CREATE TABLE Gym_Member
+CREATE TABLE Trainee
 (
-  JoinDate DATE NOT NULL,
-  LeaveDate DATE NOT NULL,
-  PersonId INT NOT NULL,
-  PRIMARY KEY (PersonId),
-  FOREIGN KEY (PersonId) REFERENCES Person(PersonId)
+  Joining_Date DATE NOT NULL,
+  Membership_Length NUMERIC(4) NOT NULL,
+  Health_Condition VARCHAR2(20) NOT NULL,
+  Person_ID NUMERIC(9) NOT NULL,
+  PRIMARY KEY (Person_ID),
+  FOREIGN KEY (Person_ID) REFERENCES Person(Person_ID)
 );
 
-CREATE TABLE Gym_Class_Medical_Constrains
+CREATE TABLE Training
 (
-  Medical_Constrains VARCHAR2(50) NOT NULL,
-  ClassId INT NOT NULL,
-  PRIMARY KEY (Medical_Constrains, ClassId),
-  FOREIGN KEY (ClassId) REFERENCES Gym_Class(ClassId)
+  Training_Code NUMERIC(5) NOT NULL,
+  Training_Type VARCHAR2(20) NOT NULL,
+  Duration NUMERIC(3) NOT NULL,
+  Constrains VARCHAR2(40),
+  PRIMARY KEY (Training_Code)
 );
 
-CREATE TABLE Person_Phone
+CREATE TABLE Item
 (
-  Phone VARCHAR2(20) NOT NULL,
-  PersonId INT NOT NULL,
-  PRIMARY KEY (Phone, PersonId),
-  FOREIGN KEY (PersonId) REFERENCES Person(PersonId)
+  Item_Code NUMERIC(5) NOT NULL,
+  Item_Name VARCHAR2 (40) NOT NULL,
+  Purpose VARCHAR2 (40),
+  Weight DECIMAL(5,2),
+  Item_Length DECIMAL(5,2),
+  PRIMARY KEY (Item_Code)
 );
 
-CREATE TABLE Gym_Member_Medical_Constrains
+CREATE TABLE Uses
 (
-  MedicalConstrains VARCHAR2(50) NOT NULL,
-  PersonId INT NOT NULL,
-  PRIMARY KEY (MedicalConstrains, PersonId),
-  FOREIGN KEY (PersonId) REFERENCES Gym_Member(PersonId)
+  Training_Code NUMERIC(5) NOT NULL,
+  Item_Code NUMERIC(5) NOT NULL,
+  PRIMARY KEY (Training_Code, Item_Code),
+  FOREIGN KEY (Training_Code) REFERENCES Training(Training_Code),
+  FOREIGN KEY (Item_Code) REFERENCES Item(Item_Code)
 );
 
-CREATE TABLE Lesson
+CREATE TABLE Person_Another_Phone
 (
-  LessonDay DATE NOT NULL,
-  LessonHour DATE NOT NULL,
-  LessonId INT NOT NULL,
-  Rating FLOAT NOT NULL,
-  ClassId INT NOT NULL,
-  RoomNum INT NOT NULL,
-  PersonId INT NOT NULL,
-  PRIMARY KEY (LessonId, ClassId),
-  FOREIGN KEY (ClassId) REFERENCES Gym_Class(ClassId),
-  FOREIGN KEY (RoomNum) REFERENCES Room(RoomNum),
-  FOREIGN KEY (PersonId) REFERENCES Trainer(PersonId)
+  Another_Phone NUMERIC(13) NOT NULL,
+  Person_ID NUMERIC(9) NOT NULL,
+  PRIMARY KEY (Another_Phone, Person_ID),
+  FOREIGN KEY (Person_ID) REFERENCES Person(Person_ID)
 );
 
-CREATE TABLE Takes_Lesson
+CREATE TABLE Actual_Training
 (
-  LessonId INT NOT NULL,
-  ClassId INT NOT NULL,
-  PersonId INT NOT NULL,
-  PRIMARY KEY (LessonId, ClassId, PersonId),
-  FOREIGN KEY (LessonId, ClassId) REFERENCES Lesson(LessonId, ClassId),
-  FOREIGN KEY (PersonId) REFERENCES Gym_Member(PersonId)
+  Training_Hour DECIMAL(4,2) NOT NULL,
+  Training_Date DATE NOT NULL,
+  Training_Location VARCHAR2(30) NOT NULL,
+  Training_Cost DECIMAL(5,2) NOT NULL,
+  Actual_Training_Code NUMERIC(5) NOT NULL,
+  Person_ID1 NUMERIC(9) NOT NULL,
+  Person_ID2 NUMERIC(9) NOT NULL,
+  Training_Code NUMERIC(5) NOT NULL,
+  PRIMARY KEY (Actual_Training_Code),
+  FOREIGN KEY (Person_ID1) REFERENCES Trainee(Person_ID),
+  FOREIGN KEY (Person_ID2) REFERENCES Trainer(Person_ID),
+  FOREIGN KEY (Training_Code) REFERENCES Training(Training_Code)
 );
+
+
 ```
 ### הפעלת פקודות Description:
 ![image](https://github.com/EsterNadler/DataBase-Project/assets/116155777/4e0e344e-bda2-47ca-b6b3-353eadf30069)
