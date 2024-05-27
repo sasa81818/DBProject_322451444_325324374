@@ -1,0 +1,500 @@
+00001 , 'Yoga Mat' , 'Flexibility Training' , 11.9 , 27.0
+00002 , 'Jump Rope' , 'Cardio' , 3.3 , NULL
+00003 , 'Weightlift' , 'Cardio' , 17.3 , NULL
+00004 , 'Medicine Ball' , 'General Fitness' , NULL , NULL
+00005 , 'Yoga Mat' , 'General Fitness' , 19.5 , 2.1
+00006 , 'Yoga Mat' , 'Strength Training' , NULL , 6.9
+00007 , 'Resistance Band' , 'Cardio' , NULL , NULL
+00008 , 'Medicine Ball' , 'Cardio' , 15.2 , NULL
+00009 , 'Dumbbell' , 'General Fitness' , NULL , 37.0
+00010 , 'Jump Rope' , 'Strength Training' , NULL , 5.1
+00011 , 'Resistance Band' , 'Flexibility Training' , NULL , 18.1
+00012 , 'Resistance Band' , 'General Fitness' , NULL , 40.1
+00013 , 'Medicine Ball' , 'Cardio' , 13.9 , 29.9
+00014 , 'Exercise Ball' , 'Strength Training' , 16.5 , NULL
+00015 , 'Dumbbell' , 'Strength Training' , 15.7 , NULL
+00016 , 'Dumbbell' , 'General Fitness' , 17.2 , NULL
+00017 , 'Weightlift' , 'General Fitness' , 14.7 , NULL
+00018 , 'Yoga Mat' , 'Strength Training' , NULL , NULL
+00019 , 'Yoga Mat' , 'Cardio' , NULL , NULL
+00020 , 'Medicine Ball' , 'General Fitness' , NULL , NULL
+00021 , 'Pull-up Bar' , 'Strength Training' , 4.6 , NULL
+00022 , 'Rope' , 'Cardio' , NULL , NULL
+00023 , 'Rope' , 'Cardio' , NULL , 16.4
+00024 , 'Pull-up Bar' , 'Strength Training' , 12.3 , NULL
+00025 , 'Pull-up Bar' , 'Flexibility Training' , NULL , NULL
+00026 , 'Resistance Band' , 'Flexibility Training' , 12.4 , 18.4
+00027 , 'Jump Rope' , 'Strength Training' , 17.8 , NULL
+00028 , 'Rope' , 'Flexibility Training' , 9.3 , NULL
+00029 , 'Medicine Ball' , 'Flexibility Training' , 16.1 , NULL
+00030 , 'Yoga Mat' , 'Climbing' , 2.1 , 2.5
+00031 , 'Kettlebell' , 'Cardio' , 9.3 , 46.1
+00032 , 'Dumbbell' , 'Cardio' , NULL , 24.5
+00033 , 'Yoga Mat' , 'Strength Training' , 13.3 , 18.1
+00034 , 'Exercise Ball' , 'Cardio' , 16.4 , 42.1
+00035 , 'Weightlift' , 'General Fitness' , 15.6 , 4.0
+00036 , 'Rope' , 'Flexibility Training' , NULL , 15.0
+00037 , 'Yoga Mat' , 'General Fitness' , 13.7 , NULL
+00038 , 'Exercise Ball' , 'Cardio' , NULL , 39.9
+00039 , 'Dumbbell' , 'General Fitness' , NULL , NULL
+00040 , 'Resistance Band' , 'Flexibility Training' , NULL , 8.7
+00041 , 'Resistance Band' , 'General Fitness' , NULL , 5.1
+00042 , 'Yoga Mat' , 'Strength Training' , NULL , 37.7
+00043 , 'Jump Rope' , 'Cardio' , 3.9 , 9.8
+00044 , 'Kettlebell' , 'Strength Training' , NULL , 12.6
+00045 , 'Medicine Ball' , 'Flexibility Training' , NULL , 17.4
+00046 , 'Yoga Mat' , 'General Fitness' , 3.7 , NULL
+00047 , 'Weightlift' , 'Cardio' , 2.8 , NULL
+00048 , 'Kettlebell' , 'Strength Training' , 6.9 , NULL
+00049 , 'Pull-up Bar' , 'Cardio' , NULL , NULL
+00050 , 'Pull-up Bar' , 'General Fitness' , NULL , NULL
+00051 , 'Jump Rope' , 'Strength Training' , 2.3 , NULL
+00052 , 'Rope' , 'Cardio' , 11.2 , NULL
+00053 , 'Rope' , 'Cardio' , 3.6 , NULL
+00054 , 'Rope' , 'Climbing' , 11.3 , 45.2
+00055 , 'Exercise Ball' , 'Cardio' , 18.5 , NULL
+00056 , 'Kettlebell' , 'Strength Training' , NULL , 43.6
+00057 , 'Jump Rope' , 'Flexibility Training' , NULL , 28.5
+00058 , 'Yoga Mat' , 'Climbing' , NULL , 33.4
+00059 , 'Yoga Mat' , 'Cardio' , 19.9 , NULL
+00060 , 'Resistance Band' , 'Strength Training' , 16.5 , NULL
+00061 , 'Weightlift' , 'Climbing' , NULL , 44.2
+00062 , 'Pull-up Bar' , 'Climbing' , NULL , NULL
+00063 , 'Pull-up Bar' , 'Climbing' , NULL , 49.2
+00064 , 'Dumbbell' , 'Strength Training' , 19.4 , NULL
+00065 , 'Resistance Band' , 'General Fitness' , NULL , 19.7
+00066 , 'Medicine Ball' , 'Climbing' , 17.2 , NULL
+00067 , 'Resistance Band' , 'General Fitness' , 12.7 , NULL
+00068 , 'Medicine Ball' , 'General Fitness' , 18.2 , NULL
+00069 , 'Dumbbell' , 'General Fitness' , NULL , 41.0
+00070 , 'Dumbbell' , 'Strength Training' , 7.5 , NULL
+00071 , 'Resistance Band' , 'Climbing' , 1.9 , 11.3
+00072 , 'Rope' , 'Strength Training' , NULL , NULL
+00073 , 'Dumbbell' , 'Strength Training' , NULL , NULL
+00074 , 'Medicine Ball' , 'Climbing' , 19.7 , 35.0
+00075 , 'Jump Rope' , 'Cardio' , NULL , NULL
+00076 , 'Exercise Ball' , 'Strength Training' , 5.5 , NULL
+00077 , 'Pull-up Bar' , 'Flexibility Training' , NULL , 20.8
+00078 , 'Yoga Mat' , 'Cardio' , NULL , 37.0
+00079 , 'Resistance Band' , 'Flexibility Training' , 4.4 , NULL
+00080 , 'Jump Rope' , 'Cardio' , NULL , 13.5
+00081 , 'Pull-up Bar' , 'Cardio' , NULL , NULL
+00082 , 'Yoga Mat' , 'Flexibility Training' , NULL , 6.0
+00083 , 'Resistance Band' , 'Strength Training' , NULL , 38.4
+00084 , 'Dumbbell' , 'Flexibility Training' , NULL , NULL
+00085 , 'Jump Rope' , 'Strength Training' , 9.9 , NULL
+00086 , 'Rope' , 'Strength Training' , 12.9 , NULL
+00087 , 'Medicine Ball' , 'General Fitness' , 16.5 , 43.8
+00088 , 'Yoga Mat' , 'General Fitness' , NULL , 25.4
+00089 , 'Yoga Mat' , 'Flexibility Training' , 16.7 , 29.7
+00090 , 'Yoga Mat' , 'General Fitness' , NULL , NULL
+00091 , 'Exercise Ball' , 'General Fitness' , NULL , NULL
+00092 , 'Yoga Mat' , 'General Fitness' , 2.5 , NULL
+00093 , 'Kettlebell' , 'Strength Training' , NULL , NULL
+00094 , 'Dumbbell' , 'Strength Training' , 13.1 , NULL
+00095 , 'Resistance Band' , 'Flexibility Training' , NULL , 25.2
+00096 , 'Medicine Ball' , 'Climbing' , 2.9 , 34.9
+00097 , 'Rope' , 'Flexibility Training' , 17.8 , NULL
+00098 , 'Exercise Ball' , 'General Fitness' , 4.8 , NULL
+00099 , 'Jump Rope' , 'General Fitness' , NULL , 5.1
+00100 , 'Dumbbell' , 'Strength Training' , NULL , 38.0
+00101 , 'Dumbbell' , 'Climbing' , 7.2 , 35.4
+00102 , 'Pull-up Bar' , 'Climbing' , NULL , NULL
+00103 , 'Yoga Mat' , 'Flexibility Training' , NULL , 26.5
+00104 , 'Kettlebell' , 'Climbing' , NULL , NULL
+00105 , 'Jump Rope' , 'Flexibility Training' , NULL , NULL
+00106 , 'Dumbbell' , 'Climbing' , NULL , NULL
+00107 , 'Pull-up Bar' , 'Flexibility Training' , NULL , NULL
+00108 , 'Yoga Mat' , 'Climbing' , 8.5 , NULL
+00109 , 'Rope' , 'Strength Training' , 11.9 , 10.2
+00110 , 'Pull-up Bar' , 'Climbing' , NULL , 44.5
+00111 , 'Resistance Band' , 'Flexibility Training' , NULL , 38.8
+00112 , 'Jump Rope' , 'Cardio' , 7.4 , 33.7
+00113 , 'Exercise Ball' , 'Strength Training' , NULL , 13.5
+00114 , 'Resistance Band' , 'Flexibility Training' , 5.4 , NULL
+00115 , 'Jump Rope' , 'Strength Training' , 19.9 , NULL
+00116 , 'Pull-up Bar' , 'General Fitness' , NULL , NULL
+00117 , 'Yoga Mat' , 'Flexibility Training' , 11.5 , NULL
+00118 , 'Kettlebell' , 'Strength Training' , 19.5 , NULL
+00119 , 'Exercise Ball' , 'Cardio' , 11.1 , 3.1
+00120 , 'Yoga Mat' , 'Climbing' , 12.4 , NULL
+00121 , 'Yoga Mat' , 'Climbing' , NULL , 4.3
+00122 , 'Rope' , 'Cardio' , NULL , NULL
+00123 , 'Resistance Band' , 'Cardio' , 15.2 , 11.3
+00124 , 'Weightlift' , 'Climbing' , 14.8 , NULL
+00125 , 'Weightlift' , 'Climbing' , NULL , 15.3
+00126 , 'Kettlebell' , 'General Fitness' , 12.8 , NULL
+00127 , 'Yoga Mat' , 'Cardio' , NULL , NULL
+00128 , 'Dumbbell' , 'General Fitness' , NULL , 5.5
+00129 , 'Rope' , 'Strength Training' , NULL , 28.9
+00130 , 'Pull-up Bar' , 'Climbing' , 13.8 , NULL
+00131 , 'Jump Rope' , 'Cardio' , 16.8 , 15.2
+00132 , 'Resistance Band' , 'Flexibility Training' , 16.9 , NULL
+00133 , 'Rope' , 'Climbing' , NULL , NULL
+00134 , 'Weightlift' , 'Climbing' , 17.1 , 47.5
+00135 , 'Pull-up Bar' , 'Flexibility Training' , 12.7 , 23.6
+00136 , 'Exercise Ball' , 'Climbing' , 11.0 , NULL
+00137 , 'Yoga Mat' , 'Cardio' , 10.6 , 24.9
+00138 , 'Jump Rope' , 'Strength Training' , 6.5 , 32.5
+00139 , 'Medicine Ball' , 'Cardio' , NULL , 41.6
+00140 , 'Dumbbell' , 'Flexibility Training' , NULL , NULL
+00141 , 'Weightlift' , 'General Fitness' , 2.4 , NULL
+00142 , 'Medicine Ball' , 'Cardio' , 3.0 , 8.4
+00143 , 'Pull-up Bar' , 'Climbing' , NULL , 4.5
+00144 , 'Dumbbell' , 'Climbing' , NULL , 14.7
+00145 , 'Yoga Mat' , 'General Fitness' , NULL , 45.3
+00146 , 'Medicine Ball' , 'Flexibility Training' , 1.4 , NULL
+00147 , 'Weightlift' , 'Strength Training' , 10.4 , NULL
+00148 , 'Dumbbell' , 'Flexibility Training' , 18.7 , 34.7
+00149 , 'Exercise Ball' , 'Strength Training' , NULL , NULL
+00150 , 'Pull-up Bar' , 'Climbing' , 6.0 , 48.5
+00151 , 'Resistance Band' , 'Strength Training' , NULL , 24.3
+00152 , 'Kettlebell' , 'Climbing' , NULL , NULL
+00153 , 'Exercise Ball' , 'Flexibility Training' , NULL , 17.7
+00154 , 'Jump Rope' , 'Strength Training' , NULL , NULL
+00155 , 'Dumbbell' , 'General Fitness' , NULL , 36.1
+00156 , 'Rope' , 'General Fitness' , 10.4 , NULL
+00157 , 'Medicine Ball' , 'Flexibility Training' , 3.4 , 22.3
+00158 , 'Jump Rope' , 'Flexibility Training' , NULL , 17.8
+00159 , 'Rope' , 'Flexibility Training' , NULL , NULL
+00160 , 'Exercise Ball' , 'Climbing' , 17.4 , NULL
+00161 , 'Dumbbell' , 'Flexibility Training' , 5.6 , NULL
+00162 , 'Dumbbell' , 'Flexibility Training' , NULL , 22.7
+00163 , 'Weightlift' , 'Flexibility Training' , NULL , NULL
+00164 , 'Jump Rope' , 'Strength Training' , 8.4 , NULL
+00165 , 'Yoga Mat' , 'Strength Training' , 16.8 , NULL
+00166 , 'Pull-up Bar' , 'General Fitness' , NULL , NULL
+00167 , 'Weightlift' , 'Flexibility Training' , NULL , NULL
+00168 , 'Kettlebell' , 'Climbing' , 6.1 , 32.5
+00169 , 'Yoga Mat' , 'Strength Training' , NULL , 34.5
+00170 , 'Yoga Mat' , 'Cardio' , 14.3 , NULL
+00171 , 'Pull-up Bar' , 'Climbing' , 5.7 , 1.1
+00172 , 'Jump Rope' , 'Strength Training' , 17.6 , 3.8
+00173 , 'Rope' , 'Climbing' , 16.2 , NULL
+00174 , 'Weightlift' , 'Strength Training' , NULL , NULL
+00175 , 'Yoga Mat' , 'General Fitness' , 10.1 , NULL
+00176 , 'Kettlebell' , 'Flexibility Training' , NULL , 3.7
+00177 , 'Rope' , 'Flexibility Training' , 16.5 , NULL
+00178 , 'Medicine Ball' , 'Flexibility Training' , 15.3 , 2.5
+00179 , 'Exercise Ball' , 'Cardio' , NULL , NULL
+00180 , 'Kettlebell' , 'Climbing' , 6.9 , NULL
+00181 , 'Weightlift' , 'Flexibility Training' , NULL , 9.0
+00182 , 'Dumbbell' , 'Cardio' , 17.0 , NULL
+00183 , 'Resistance Band' , 'Climbing' , NULL , 32.8
+00184 , 'Weightlift' , 'Strength Training' , 16.4 , NULL
+00185 , 'Dumbbell' , 'Strength Training' , 4.1 , 41.6
+00186 , 'Pull-up Bar' , 'Climbing' , NULL , 3.2
+00187 , 'Kettlebell' , 'Strength Training' , NULL , 24.7
+00188 , 'Dumbbell' , 'Climbing' , NULL , 7.5
+00189 , 'Dumbbell' , 'Flexibility Training' , 17.7 , NULL
+00190 , 'Kettlebell' , 'Cardio' , NULL , NULL
+00191 , 'Rope' , 'Strength Training' , NULL , 19.5
+00192 , 'Yoga Mat' , 'General Fitness' , NULL , 32.7
+00193 , 'Yoga Mat' , 'Cardio' , 13.1 , NULL
+00194 , 'Weightlift' , 'Cardio' , 7.8 , 14.4
+00195 , 'Medicine Ball' , 'Strength Training' , NULL , NULL
+00196 , 'Weightlift' , 'Cardio' , 15.3 , NULL
+00197 , 'Weightlift' , 'Flexibility Training' , 3.5 , 20.8
+00198 , 'Medicine Ball' , 'General Fitness' , NULL , 10.1
+00199 , 'Medicine Ball' , 'Climbing' , 6.3 , NULL
+00200 , 'Jump Rope' , 'Cardio' , 14.3 , NULL
+00201 , 'Weightlift' , 'Climbing' , 4.9 , 31.5
+00202 , 'Resistance Band' , 'Flexibility Training' , NULL , 32.1
+00203 , 'Kettlebell' , 'Flexibility Training' , NULL , NULL
+00204 , 'Kettlebell' , 'Flexibility Training' , 16.0 , 21.3
+00205 , 'Medicine Ball' , 'Climbing' , NULL , NULL
+00206 , 'Resistance Band' , 'General Fitness' , NULL , NULL
+00207 , 'Pull-up Bar' , 'General Fitness' , NULL , NULL
+00208 , 'Rope' , 'Cardio' , 7.7 , NULL
+00209 , 'Kettlebell' , 'Climbing' , 19.1 , 13.9
+00210 , 'Medicine Ball' , 'General Fitness' , NULL , NULL
+00211 , 'Pull-up Bar' , 'Flexibility Training' , 10.8 , 18.2
+00212 , 'Jump Rope' , 'General Fitness' , 16.6 , NULL
+00213 , 'Dumbbell' , 'Strength Training' , 14.2 , 15.9
+00214 , 'Exercise Ball' , 'Climbing' , NULL , NULL
+00215 , 'Yoga Mat' , 'Strength Training' , NULL , 44.2
+00216 , 'Medicine Ball' , 'Climbing' , 10.2 , NULL
+00217 , 'Dumbbell' , 'Flexibility Training' , NULL , 42.6
+00218 , 'Pull-up Bar' , 'General Fitness' , NULL , NULL
+00219 , 'Pull-up Bar' , 'Climbing' , NULL , NULL
+00220 , 'Jump Rope' , 'Strength Training' , 17.3 , NULL
+00221 , 'Resistance Band' , 'Cardio' , 16.1 , NULL
+00222 , 'Jump Rope' , 'Strength Training' , 8.5 , NULL
+00223 , 'Jump Rope' , 'Flexibility Training' , 10.7 , NULL
+00224 , 'Exercise Ball' , 'Flexibility Training' , 6.1 , 33.0
+00225 , 'Yoga Mat' , 'Cardio' , 1.9 , NULL
+00226 , 'Medicine Ball' , 'Cardio' , NULL , 17.6
+00227 , 'Weightlift' , 'Climbing' , 18.3 , NULL
+00228 , 'Dumbbell' , 'Strength Training' , 6.1 , NULL
+00229 , 'Jump Rope' , 'General Fitness' , NULL , 45.5
+00230 , 'Kettlebell' , 'Cardio' , NULL , NULL
+00231 , 'Jump Rope' , 'Flexibility Training' , NULL , NULL
+00232 , 'Yoga Mat' , 'Climbing' , 18.8 , 8.9
+00233 , 'Exercise Ball' , 'Cardio' , 15.8 , 20.7
+00234 , 'Rope' , 'Flexibility Training' , 7.7 , 46.0
+00235 , 'Dumbbell' , 'General Fitness' , 1.4 , 37.5
+00236 , 'Resistance Band' , 'Strength Training' , NULL , NULL
+00237 , 'Yoga Mat' , 'General Fitness' , NULL , NULL
+00238 , 'Resistance Band' , 'Cardio' , 7.3 , 21.8
+00239 , 'Exercise Ball' , 'Flexibility Training' , NULL , NULL
+00240 , 'Medicine Ball' , 'General Fitness' , NULL , NULL
+00241 , 'Pull-up Bar' , 'Climbing' , 13.5 , 47.2
+00242 , 'Kettlebell' , 'Strength Training' , NULL , 11.2
+00243 , 'Dumbbell' , 'Climbing' , NULL , NULL
+00244 , 'Weightlift' , 'Flexibility Training' , NULL , NULL
+00245 , 'Pull-up Bar' , 'Flexibility Training' , 9.1 , NULL
+00246 , 'Resistance Band' , 'Climbing' , NULL , 3.0
+00247 , 'Resistance Band' , 'General Fitness' , NULL , 4.4
+00248 , 'Kettlebell' , 'Strength Training' , 13.4 , NULL
+00249 , 'Medicine Ball' , 'Flexibility Training' , 9.4 , 42.5
+00250 , 'Jump Rope' , 'Flexibility Training' , NULL , NULL
+00251 , 'Jump Rope' , 'Cardio' , 3.6 , NULL
+00252 , 'Pull-up Bar' , 'Strength Training' , 12.4 , 2.8
+00253 , 'Jump Rope' , 'Climbing' , 13.0 , 18.7
+00254 , 'Medicine Ball' , 'Strength Training' , NULL , NULL
+00255 , 'Resistance Band' , 'General Fitness' , 9.3 , 23.6
+00256 , 'Kettlebell' , 'Cardio' , 11.3 , NULL
+00257 , 'Weightlift' , 'Strength Training' , 12.5 , 50.0
+00258 , 'Jump Rope' , 'Climbing' , 10.8 , NULL
+00259 , 'Resistance Band' , 'Flexibility Training' , 18.3 , NULL
+00260 , 'Resistance Band' , 'Flexibility Training' , 10.4 , 6.9
+00261 , 'Jump Rope' , 'Strength Training' , NULL , 34.6
+00262 , 'Pull-up Bar' , 'General Fitness' , NULL , NULL
+00263 , 'Dumbbell' , 'Flexibility Training' , 9.0 , 11.7
+00264 , 'Rope' , 'Climbing' , 15.8 , 7.3
+00265 , 'Exercise Ball' , 'Strength Training' , NULL , 29.9
+00266 , 'Jump Rope' , 'Cardio' , 10.0 , 38.0
+00267 , 'Kettlebell' , 'General Fitness' , NULL , NULL
+00268 , 'Pull-up Bar' , 'Flexibility Training' , NULL , NULL
+00269 , 'Kettlebell' , 'Flexibility Training' , NULL , 10.4
+00270 , 'Kettlebell' , 'Flexibility Training' , 9.1 , 2.7
+00271 , 'Pull-up Bar' , 'General Fitness' , 16.3 , 3.8
+00272 , 'Pull-up Bar' , 'Climbing' , NULL , 3.3
+00273 , 'Yoga Mat' , 'Strength Training' , NULL , 7.1
+00274 , 'Kettlebell' , 'Flexibility Training' , NULL , NULL
+00275 , 'Exercise Ball' , 'Climbing' , NULL , 49.9
+00276 , 'Kettlebell' , 'Flexibility Training' , NULL , NULL
+00277 , 'Weightlift' , 'Strength Training' , 4.5 , NULL
+00278 , 'Pull-up Bar' , 'Flexibility Training' , 8.7 , NULL
+00279 , 'Medicine Ball' , 'Cardio' , NULL , NULL
+00280 , 'Dumbbell' , 'Strength Training' , NULL , 8.8
+00281 , 'Medicine Ball' , 'General Fitness' , NULL , 13.3
+00282 , 'Exercise Ball' , 'Strength Training' , NULL , 35.6
+00283 , 'Medicine Ball' , 'Cardio' , 10.9 , NULL
+00284 , 'Resistance Band' , 'Climbing' , NULL , 47.0
+00285 , 'Jump Rope' , 'Flexibility Training' , NULL , NULL
+00286 , 'Exercise Ball' , 'Flexibility Training' , 16.2 , NULL
+00287 , 'Dumbbell' , 'Cardio' , 11.7 , 31.5
+00288 , 'Yoga Mat' , 'Flexibility Training' , 6.1 , NULL
+00289 , 'Jump Rope' , 'Flexibility Training' , NULL , NULL
+00290 , 'Yoga Mat' , 'Climbing' , 15.6 , 42.4
+00291 , 'Resistance Band' , 'Climbing' , 15.7 , NULL
+00292 , 'Dumbbell' , 'Strength Training' , NULL , NULL
+00293 , 'Medicine Ball' , 'Flexibility Training' , NULL , 49.3
+00294 , 'Pull-up Bar' , 'Climbing' , 14.1 , NULL
+00295 , 'Rope' , 'Cardio' , NULL , 42.9
+00296 , 'Exercise Ball' , 'Strength Training' , 19.4 , 43.2
+00297 , 'Rope' , 'Climbing' , NULL , NULL
+00298 , 'Resistance Band' , 'General Fitness' , NULL , 2.4
+00299 , 'Pull-up Bar' , 'Flexibility Training' , 8.5 , 49.9
+00300 , 'Yoga Mat' , 'Strength Training' , NULL , NULL
+00301 , 'Jump Rope' , 'Climbing' , 13.3 , 32.3
+00302 , 'Exercise Ball' , 'Strength Training' , 3.4 , NULL
+00303 , 'Resistance Band' , 'Cardio' , NULL , NULL
+00304 , 'Rope' , 'Cardio' , 9.3 , 40.2
+00305 , 'Exercise Ball' , 'Cardio' , NULL , 4.0
+00306 , 'Rope' , 'Cardio' , 15.7 , NULL
+00307 , 'Weightlift' , 'General Fitness' , NULL , NULL
+00308 , 'Dumbbell' , 'General Fitness' , NULL , 21.6
+00309 , 'Resistance Band' , 'Cardio' , NULL , 5.6
+00310 , 'Exercise Ball' , 'Strength Training' , 18.9 , 48.5
+00311 , 'Dumbbell' , 'Cardio' , 6.6 , NULL
+00312 , 'Resistance Band' , 'Cardio' , NULL , NULL
+00313 , 'Weightlift' , 'Strength Training' , 2.5 , NULL
+00314 , 'Resistance Band' , 'Cardio' , 10.4 , NULL
+00315 , 'Medicine Ball' , 'Climbing' , 12.9 , 23.0
+00316 , 'Yoga Mat' , 'Cardio' , 13.1 , NULL
+00317 , 'Resistance Band' , 'Strength Training' , NULL , 47.4
+00318 , 'Kettlebell' , 'Climbing' , NULL , 27.2
+00319 , 'Rope' , 'Flexibility Training' , 15.6 , NULL
+00320 , 'Medicine Ball' , 'Flexibility Training' , NULL , NULL
+00321 , 'Exercise Ball' , 'Flexibility Training' , 3.6 , NULL
+00322 , 'Dumbbell' , 'Climbing' , 1.2 , 26.1
+00323 , 'Yoga Mat' , 'Strength Training' , 18.5 , NULL
+00324 , 'Kettlebell' , 'Climbing' , NULL , 17.8
+00325 , 'Dumbbell' , 'Climbing' , 13.2 , NULL
+00326 , 'Rope' , 'Cardio' , NULL , 36.6
+00327 , 'Rope' , 'Strength Training' , 10.8 , NULL
+00328 , 'Medicine Ball' , 'Climbing' , 2.4 , 21.5
+00329 , 'Dumbbell' , 'Flexibility Training' , NULL , 25.4
+00330 , 'Kettlebell' , 'Strength Training' , 6.4 , NULL
+00331 , 'Kettlebell' , 'Strength Training' , NULL , NULL
+00332 , 'Resistance Band' , 'Cardio' , NULL , NULL
+00333 , 'Kettlebell' , 'Climbing' , NULL , 17.4
+00334 , 'Weightlift' , 'Climbing' , 18.1 , NULL
+00335 , 'Pull-up Bar' , 'Cardio' , 13.3 , NULL
+00336 , 'Resistance Band' , 'Climbing' , NULL , 14.9
+00337 , 'Yoga Mat' , 'Climbing' , NULL , NULL
+00338 , 'Medicine Ball' , 'General Fitness' , NULL , 9.4
+00339 , 'Yoga Mat' , 'Flexibility Training' , NULL , NULL
+00340 , 'Resistance Band' , 'Climbing' , 16.7 , NULL
+00341 , 'Yoga Mat' , 'Strength Training' , NULL , 35.7
+00342 , 'Yoga Mat' , 'General Fitness' , NULL , NULL
+00343 , 'Exercise Ball' , 'General Fitness' , NULL , 47.6
+00344 , 'Exercise Ball' , 'Climbing' , NULL , 11.1
+00345 , 'Kettlebell' , 'General Fitness' , NULL , 49.0
+00346 , 'Exercise Ball' , 'Flexibility Training' , 4.7 , 18.9
+00347 , 'Medicine Ball' , 'Flexibility Training' , NULL , 42.3
+00348 , 'Dumbbell' , 'Cardio' , NULL , NULL
+00349 , 'Weightlift' , 'Cardio' , NULL , 20.4
+00350 , 'Yoga Mat' , 'Climbing' , NULL , NULL
+00351 , 'Yoga Mat' , 'Cardio' , 5.6 , 13.0
+00352 , 'Weightlift' , 'Strength Training' , NULL , NULL
+00353 , 'Resistance Band' , 'Cardio' , NULL , 25.1
+00354 , 'Kettlebell' , 'Cardio' , 13.0 , NULL
+00355 , 'Jump Rope' , 'Strength Training' , NULL , 29.7
+00356 , 'Pull-up Bar' , 'General Fitness' , 15.1 , NULL
+00357 , 'Yoga Mat' , 'Strength Training' , 1.0 , NULL
+00358 , 'Jump Rope' , 'General Fitness' , 2.0 , 22.4
+00359 , 'Kettlebell' , 'Cardio' , NULL , 12.7
+00360 , 'Rope' , 'Cardio' , 5.9 , 43.9
+00361 , 'Medicine Ball' , 'General Fitness' , NULL , NULL
+00362 , 'Dumbbell' , 'Flexibility Training' , 6.4 , NULL
+00363 , 'Yoga Mat' , 'Cardio' , NULL , NULL
+00364 , 'Yoga Mat' , 'Climbing' , 9.5 , 8.4
+00365 , 'Resistance Band' , 'General Fitness' , NULL , NULL
+00366 , 'Medicine Ball' , 'Climbing' , 12.6 , NULL
+00367 , 'Kettlebell' , 'General Fitness' , NULL , 24.7
+00368 , 'Yoga Mat' , 'Flexibility Training' , 3.8 , NULL
+00369 , 'Medicine Ball' , 'Cardio' , 6.2 , 35.0
+00370 , 'Medicine Ball' , 'Cardio' , NULL , 25.0
+00371 , 'Exercise Ball' , 'Flexibility Training' , 6.4 , NULL
+00372 , 'Jump Rope' , 'General Fitness' , 6.9 , 30.9
+00373 , 'Yoga Mat' , 'General Fitness' , 2.5 , NULL
+00374 , 'Kettlebell' , 'Climbing' , NULL , NULL
+00375 , 'Yoga Mat' , 'Cardio' , NULL , NULL
+00376 , 'Pull-up Bar' , 'Climbing' , NULL , NULL
+00377 , 'Kettlebell' , 'Strength Training' , NULL , NULL
+00378 , 'Weightlift' , 'Cardio' , NULL , 47.3
+00379 , 'Exercise Ball' , 'Climbing' , NULL , 45.2
+00380 , 'Resistance Band' , 'Strength Training' , NULL , 37.7
+00381 , 'Kettlebell' , 'Flexibility Training' , 19.2 , 23.7
+00382 , 'Yoga Mat' , 'Cardio' , NULL , NULL
+00383 , 'Yoga Mat' , 'Flexibility Training' , NULL , 2.4
+00384 , 'Kettlebell' , 'Strength Training' , 4.9 , NULL
+00385 , 'Pull-up Bar' , 'Climbing' , NULL , NULL
+00386 , 'Dumbbell' , 'General Fitness' , NULL , 39.0
+00387 , 'Medicine Ball' , 'Flexibility Training' , 2.6 , 2.3
+00388 , 'Pull-up Bar' , 'Climbing' , NULL , 18.2
+00389 , 'Weightlift' , 'Cardio' , NULL , NULL
+00390 , 'Kettlebell' , 'Climbing' , NULL , NULL
+00391 , 'Weightlift' , 'Cardio' , 11.0 , 31.3
+00392 , 'Yoga Mat' , 'Strength Training' , NULL , NULL
+00393 , 'Weightlift' , 'Flexibility Training' , NULL , 23.4
+00394 , 'Kettlebell' , 'General Fitness' , NULL , NULL
+00395 , 'Kettlebell' , 'Strength Training' , 13.4 , 14.5
+00396 , 'Kettlebell' , 'Flexibility Training' , 6.5 , NULL
+00397 , 'Kettlebell' , 'General Fitness' , NULL , 30.4
+00398 , 'Exercise Ball' , 'General Fitness' , NULL , NULL
+00399 , 'Weightlift' , 'Climbing' , 14.5 , NULL
+00400 , 'Yoga Mat' , 'General Fitness' , 16.9 , NULL
+00401 , 'Exercise Ball' , 'Strength Training' , 10.3 , 13.0
+00402 , 'Rope' , 'Cardio' , 4.0 , 41.7
+00403 , 'Medicine Ball' , 'Cardio' , 17.1 , 47.7
+00404 , 'Medicine Ball' , 'Flexibility Training' , 9.0 , 14.9
+00405 , 'Kettlebell' , 'Cardio' , NULL , 11.9
+00406 , 'Resistance Band' , 'Cardio' , NULL , NULL
+00407 , 'Weightlift' , 'General Fitness' , 4.3 , NULL
+00408 , 'Exercise Ball' , 'General Fitness' , NULL , NULL
+00409 , 'Exercise Ball' , 'Strength Training' , 19.3 , 23.9
+00410 , 'Jump Rope' , 'Cardio' , NULL , NULL
+00411 , 'Dumbbell' , 'Cardio' , 2.0 , NULL
+00412 , 'Medicine Ball' , 'General Fitness' , NULL , 39.4
+00413 , 'Resistance Band' , 'Flexibility Training' , 2.4 , NULL
+00414 , 'Exercise Ball' , 'Strength Training' , NULL , NULL
+00415 , 'Kettlebell' , 'General Fitness' , NULL , NULL
+00416 , 'Dumbbell' , 'Climbing' , 16.1 , NULL
+00417 , 'Dumbbell' , 'Cardio' , 17.2 , 38.5
+00418 , 'Yoga Mat' , 'Strength Training' , NULL , NULL
+00419 , 'Medicine Ball' , 'Climbing' , 19.2 , NULL
+00420 , 'Medicine Ball' , 'Flexibility Training' , NULL , 39.1
+00421 , 'Pull-up Bar' , 'Cardio' , 20.0 , NULL
+00422 , 'Medicine Ball' , 'General Fitness' , NULL , 1.1
+00423 , 'Exercise Ball' , 'General Fitness' , NULL , NULL
+00424 , 'Kettlebell' , 'General Fitness' , NULL , NULL
+00425 , 'Jump Rope' , 'Climbing' , 1.6 , NULL
+00426 , 'Resistance Band' , 'Flexibility Training' , NULL , 17.2
+00427 , 'Kettlebell' , 'Strength Training' , NULL , 21.8
+00428 , 'Weightlift' , 'Cardio' , NULL , 40.7
+00429 , 'Weightlift' , 'Strength Training' , 6.5 , 13.6
+00430 , 'Jump Rope' , 'Climbing' , NULL , NULL
+00431 , 'Rope' , 'Cardio' , NULL , 18.6
+00432 , 'Kettlebell' , 'Cardio' , NULL , 41.8
+00433 , 'Pull-up Bar' , 'Flexibility Training' , 6.6 , 33.3
+00434 , 'Dumbbell' , 'General Fitness' , 14.7 , NULL
+00435 , 'Rope' , 'General Fitness' , NULL , 22.2
+00436 , 'Kettlebell' , 'Cardio' , 4.6 , 38.1
+00437 , 'Kettlebell' , 'General Fitness' , 2.3 , NULL
+00438 , 'Exercise Ball' , 'Cardio' , NULL , 44.7
+00439 , 'Exercise Ball' , 'Climbing' , 13.2 , NULL
+00440 , 'Kettlebell' , 'Cardio' , 8.1 , NULL
+00441 , 'Exercise Ball' , 'Cardio' , 12.8 , 16.9
+00442 , 'Kettlebell' , 'Cardio' , NULL , 14.3
+00443 , 'Yoga Mat' , 'Strength Training' , NULL , NULL
+00444 , 'Dumbbell' , 'General Fitness' , 1.1 , NULL
+00445 , 'Dumbbell' , 'Strength Training' , NULL , 6.6
+00446 , 'Resistance Band' , 'General Fitness' , NULL , NULL
+00447 , 'Weightlift' , 'Strength Training' , NULL , 9.6
+00448 , 'Rope' , 'General Fitness' , 4.2 , 27.4
+00449 , 'Rope' , 'General Fitness' , NULL , 48.5
+00450 , 'Pull-up Bar' , 'General Fitness' , 14.4 , 9.6
+00451 , 'Pull-up Bar' , 'General Fitness' , 18.5 , NULL
+00452 , 'Resistance Band' , 'Cardio' , NULL , NULL
+00453 , 'Medicine Ball' , 'General Fitness' , NULL , NULL
+00454 , 'Medicine Ball' , 'Cardio' , 11.3 , NULL
+00455 , 'Pull-up Bar' , 'Cardio' , NULL , NULL
+00456 , 'Rope' , 'General Fitness' , NULL , NULL
+00457 , 'Rope' , 'Flexibility Training' , 4.0 , NULL
+00458 , 'Medicine Ball' , 'Climbing' , NULL , 42.0
+00459 , 'Rope' , 'Cardio' , 6.8 , 17.4
+00460 , 'Pull-up Bar' , 'Flexibility Training' , 2.2 , NULL
+00461 , 'Dumbbell' , 'Cardio' , NULL , 14.5
+00462 , 'Pull-up Bar' , 'Strength Training' , 11.3 , 43.8
+00463 , 'Resistance Band' , 'Climbing' , NULL , 25.6
+00464 , 'Weightlift' , 'Climbing' , NULL , NULL
+00465 , 'Jump Rope' , 'Strength Training' , 7.6 , 40.7
+00466 , 'Rope' , 'Cardio' , NULL , NULL
+00467 , 'Rope' , 'Strength Training' , NULL , NULL
+00468 , 'Resistance Band' , 'General Fitness' , NULL , NULL
+00469 , 'Pull-up Bar' , 'Strength Training' , NULL , 47.4
+00470 , 'Dumbbell' , 'Strength Training' , 5.8 , NULL
+00471 , 'Kettlebell' , 'Cardio' , 16.5 , 49.6
+00472 , 'Pull-up Bar' , 'Flexibility Training' , 4.9 , 9.7
+00473 , 'Rope' , 'Climbing' , 7.6 , NULL
+00474 , 'Resistance Band' , 'Strength Training' , NULL , NULL
+00475 , 'Yoga Mat' , 'General Fitness' , 1.0 , 43.1
+00476 , 'Yoga Mat' , 'Strength Training' , 2.7 , NULL
+00477 , 'Yoga Mat' , 'Flexibility Training' , NULL , NULL
+00478 , 'Dumbbell' , 'Flexibility Training' , NULL , 37.2
+00479 , 'Resistance Band' , 'Flexibility Training' , NULL , NULL
+00480 , 'Medicine Ball' , 'Cardio' , NULL , 13.7
+00481 , 'Medicine Ball' , 'Cardio' , NULL , 41.2
+00482 , 'Resistance Band' , 'Climbing' , 8.2 , NULL
+00483 , 'Exercise Ball' , 'Strength Training' , 9.0 , NULL
+00484 , 'Weightlift' , 'Climbing' , NULL , 21.7
+00485 , 'Resistance Band' , 'General Fitness' , 17.4 , 9.6
+00486 , 'Jump Rope' , 'Flexibility Training' , 3.0 , NULL
+00487 , 'Exercise Ball' , 'Flexibility Training' , 15.3 , NULL
+00488 , 'Kettlebell' , 'General Fitness' , 3.3 , NULL
+00489 , 'Medicine Ball' , 'General Fitness' , NULL , 4.3
+00490 , 'Weightlift' , 'Climbing' , 18.8 , 41.7
+00491 , 'Exercise Ball' , 'General Fitness' , 18.1 , NULL
+00492 , 'Yoga Mat' , 'Flexibility Training' , 6.5 , 8.6
+00493 , 'Dumbbell' , 'Strength Training' , NULL , 30.3
+00494 , 'Medicine Ball' , 'Strength Training' , NULL , NULL
+00495 , 'Kettlebell' , 'General Fitness' , 19.2 , NULL
+00496 , 'Weightlift' , 'Climbing' , NULL , 35.5
+00497 , 'Yoga Mat' , 'General Fitness' , 13.0 , 39.7
+00498 , 'Resistance Band' , 'General Fitness' , NULL , NULL
+00499 , 'Jump Rope' , 'Cardio' , 5.1 , NULL
+00500 , 'Kettlebell' , 'General Fitness' , NULL , 27.6
