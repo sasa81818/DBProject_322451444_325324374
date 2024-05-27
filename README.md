@@ -175,6 +175,15 @@ CREATE TABLE Actual_Training
 
 ![Screenshot 2024-05-27 220120](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/3a6afb2b-7817-4e49-a5f7-54738b12b5bc)
 
+### הכנסת נתונים ע"י אתר mockaroo:
+האתר:
+![Screenshot 2024-05-27 222733](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/b6838f34-e0fe-48f8-8356-73f8c687e429)
+
+
+הקובץ המתקבל:
+![Screenshot 2024-05-27 222823](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/814b449f-822b-4fa6-a527-a8790b5d68f0)
+
+
 ## יצירת קובץ הגיבוי:
 
 
