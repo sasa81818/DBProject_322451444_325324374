@@ -70,7 +70,7 @@ CREATE TABLE Person_Another_Phone
 
 CREATE TABLE Actual_Training
 (
-  Training_Hour VARCHAR2(5) NOT NULL,
+  Training_Hour DECIMAL(4,2) NOT NULL,
   Training_Date DATE NOT NULL,
   Training_Location VARCHAR2(30) NOT NULL,
   Training_Cost DECIMAL(5,2) NOT NULL,
