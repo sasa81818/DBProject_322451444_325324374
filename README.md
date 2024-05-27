@@ -1,14 +1,14 @@
-![תמונה של WhatsApp‏ 2024-05-20 בשעה 23 00 39_bd5457db](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/91e6cd1f-f118-4031-967f-59346bd6ec59)## מיני פרויקט בבסיסי נתונים- ניהול מערכת תכניות אימון (כושר) אישיות
+## מיני פרויקט בבסיסי נתונים- ניהול מערכת תכניות אימון (כושר) אישיות
 מגישות:
 טובה רוטנשטיין-322451444
 ושרי זילברליכט-325324374
 
-# תוכן עניינים
+### תוכן עניינים
 - [מבוא](#מבוא)
 - [שלב 1](#שלב-1)
   - [דיאגרמת ERD](#דיאגרמת-erd)
   - [דיאגרמת DSD](#דיאגרמת-dsd)
-  - [תוכן קובץ ה-CreateTables](#תוכן-קובץ-ה-createtables)
+  - [פקודת CreateTables](#פקודת-CreateTables)
   - [הפעלת פקודות DESC](#הפעלת-פקודות-description)
   - [ייבוא נתונים](#ייבוא-נתונים)
     - [ייבוא נתונים מקובץ טקסט](#ייבוא-נתונים-מקובץ-טקסט)
@@ -18,7 +18,7 @@
 
 ## מבוא 
 המערכת שלנו עוסקת בניהול מערכות המידע של תכניות אימון (כושר) אישיות, וכוללת את הישויות הבאות:
-מדריכים, מתאמנים, אימונים (כגון פילאטיס, אירובי), אימונים בפועל (אימון מסויים בין מאמן ומתאמן) וכן את אביזרי הכושר עבור כל אימון.
+מדריכים, מתאמנים, אימונים (סוגי אימון - זומבה, יוגה...), אימונים בפועל (אימון מסויים בין מאמן ומתאמן) וכן את אביזרי הכושר עבור כל אימון.
 בהמשך נציג שאילתות שונות שיעזרו לנו לדלות מידע מהנתונים וכן לערוך שינויים על הטבלאות הקיימות..
 
 #
@@ -32,11 +32,11 @@
 
 
 
-
 ### דיאגרמת DSD
-<img src="https://github.com/EsterNadler/DataBase-Project/assets/116155777/1d3dc8c2-b440-410f-8765-046a4418abf9" alt="2דיאגרמה" width="1000">
+![תמונה של WhatsApp‏ 2024-05-20 בשעה 23 00 40_68111b93](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/f02a4ab1-0b28-4189-835a-97dac078cedb)
 
-### פקודת CreateTables:
+
+### פקודת CreateTables
 ```sh
  CREATE TABLE Person
 (
@@ -127,60 +127,67 @@ CREATE TABLE Actual_Training
 
 ```
 ### הפעלת פקודות Description:
-![image](https://github.com/EsterNadler/DataBase-Project/assets/116155777/4e0e344e-bda2-47ca-b6b3-353eadf30069)
-![image](https://github.com/EsterNadler/DataBase-Project/assets/116155777/ff488dbe-5bb9-4308-b4eb-fe552bcc0c5a)
-![image](https://github.com/EsterNadler/DataBase-Project/assets/116155777/a72fb1d2-b7b1-4413-939c-5fb6a105ca3c)
-![image](https://github.com/EsterNadler/DataBase-Project/assets/116155777/8e0ad917-7ed4-4aa9-a27c-703c9f67c954)
-![image](https://github.com/EsterNadler/DataBase-Project/assets/116155777/f028d449-b7ee-4b96-9596-0b7508b8794a)
-![image](https://github.com/EsterNadler/DataBase-Project/assets/116155777/18fdd636-feb1-43e9-bc48-3c6f7936d191)
-![image](https://github.com/EsterNadler/DataBase-Project/assets/116155777/9928c246-1fcd-49b2-89bc-4bcf2c649b71)
-![image](https://github.com/EsterNadler/DataBase-Project/assets/116155777/cfd0e628-d6d2-44ea-8f9f-a9e377f54ad4)
-![image](https://github.com/EsterNadler/DataBase-Project/assets/116155777/1a367893-eb72-427b-86e1-f184195d4aa3)
-![image](https://github.com/EsterNadler/DataBase-Project/assets/116155777/1a4485e7-5275-4745-89f7-b7effffee812)
+
+![Screenshot 2024-05-27 213901](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/b25ac61d-a0ea-4788-84ae-fc8f1bd92636)
+![Screenshot 2024-05-27 214231](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/1a1bd032-6fef-4825-b9d2-5530c2a2e192)
+![Screenshot 2024-05-27 214213](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/62b2c776-fb99-423a-81a9-6dbc73fee101)
+![Screenshot 2024-05-27 214140](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/df449d56-a18f-4cf9-9e3f-a0779effc145)
+![Screenshot 2024-05-27 214108](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/3bef91a0-7096-4e8e-89b5-76d3d2771785)
+![Screenshot 2024-05-27 214050](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/e5079747-9e37-469a-9787-66e78fa96596)
+![Screenshot 2024-05-27 214007](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/52a38c63-36fb-49b1-a6c4-1d038fb8231b)
+![Screenshot 2024-05-27 213940](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/8aa05b78-3a36-402f-bd33-3643447ea948)
+
+
+
 
 ## ייבוא נתונים
 ### ייבוא נתונים מקובץ טקסט:
---------------------------------------------------------------------------לטבלה ROOM------------------------------------------------------------------
 קובץ הטקסט:
-![image](https://github.com/EsterNadler/DBProject322346768_325443240/assets/116155777/31001be1-07ee-4318-9499-d582967315dc)
+
+![Screenshot 2024-05-27 214637](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/eb52328d-acca-4c98-ac00-0b614fa32c91)
+
 קובץ ה Importer:
-![צילום מסך 2024-05-25 210951](https://github.com/EsterNadler/DBProject322346768_325443240/assets/116155777/6d1ea58d-35c0-404f-bf9c-cb8b73f6bab6)
+![Screenshot 2024-05-27 215039](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/9c6bf853-d0a8-4265-883a-0e4899628714)
+
 
 ### הכנסת נתונים ע"י Data Generator:
---------לטבלה PERSON----------
-![image](https://github.com/EsterNadler/DBProject322346768_325443240/assets/116155777/c32fe676-113e-4802-a2a6-df156c4e62e7)
 
---------לטבלה TRAINER---------
-![image](https://github.com/EsterNadler/DBProject322346768_325443240/assets/116155777/b99c730b-8fdb-4ce4-b348-0d534b4191db)
 
--------לטבלה MEMBER_MEDICAL_CONSTRAINS--------
-![image](https://github.com/EsterNadler/DBProject322346768_325443240/assets/116155777/31689c49-fcb4-4c2f-b1e4-8c221113c65c)
+![Screenshot 2024-05-27 215531](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/8e6140e9-95a6-4cb3-87f4-311f7ca8ee2d)
 
--------לטבלה CLASS_MEDICAL_CONSTRAINS--------
+![Screenshot 2024-05-27 215503](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/4437a09e-7a51-451e-adcb-4f951cd2fe09)
 
-![image](https://github.com/EsterNadler/DBProject322346768_325443240/assets/116155777/cba7355f-c2ba-4474-be33-a78923ba4baa)
----------------לטבלה LESSON---------------
-![image](https://github.com/EsterNadler/DBProject322346768_325443240/assets/116155777/8d855673-c46b-4b05-bac2-27e7de0c57ec)
+![Screenshot 2024-05-27 215427](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/e3fa70be-0fc6-43cf-8f9c-a478776294d6)
 
--------לטבלה PERSON_PHONE--------
-![image](https://github.com/EsterNadler/DBProject322346768_325443240/assets/116155777/7f21812f-00c4-4696-a005-d84c2d4d92bb)
+![Screenshot 2024-05-27 215621](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/7b9c139f-5965-4bc6-a2ff-8a3633a24001)
+
+![Screenshot 2024-05-27 215558](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/0c5f5692-9e50-4ec0-96f7-394f63ac226c)
 
 
 ### הכנסת נתונים ע"י תוכנית Python:
-הרצת התוכנית שמייצרת את פקודות הINSERT:
-![צילום מסך 2024-05-27 121645](https://github.com/EsterNadler/DBProject322346768_325443240/assets/116155777/66d30f73-ac43-48a6-86f2-0552557f4b57)
-הקובץ המתקבל:
-![image](https://github.com/EsterNadler/DBProject322346768_325443240/assets/116155777/352a4cd5-d879-4266-8ae0-8eb4a4fa6b2b)
+התוכנית:
 
+![Screenshot 2024-05-27 220022](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/303719cb-8586-4821-a455-5acdd7ab2e3b)
+
+
+
+הקובץ המתקבל:
+
+![Screenshot 2024-05-27 220120](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/3a6afb2b-7817-4e49-a5f7-54738b12b5bc)
 
 ## יצירת קובץ הגיבוי:
-![image](https://github.com/EsterNadler/DBProject322346768_325443240/assets/116155777/fa4fd4b3-460e-429b-8d52-57647c84bab3)
+
+
+![Screenshot 2024-05-27 220237](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/b2d7d269-c3eb-4629-83de-7d6e594967c9)
+
+
 ### שחזור קובץ הגיבוי:
-![image](https://github.com/EsterNadler/DBProject322346768_325443240/assets/116155777/87d94d92-8f1f-4896-a6c3-470c4eaf2699)
+הרצה על משתמש אחר, ניתן לראות כי הנתונים נשמרו:
 
 
 
 
+![Screenshot 2024-05-27 221056](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/cead7bfe-7bee-42fd-a3a9-481b06c200bf)
 
 
 
