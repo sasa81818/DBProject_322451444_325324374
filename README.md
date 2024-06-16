@@ -281,19 +281,26 @@ CREATE TABLE Actual_Training
 
 
 ### הרצת שאילתות מחיקה
-- שאילתא למחיקת מאמנים עם פחות משנה נסיון שלא העבירו שום שיעור בשנה האחרונה:
-![image](https://github.com/EsterNadler/DBProject322346768_325443240/assets/116155777/f3cf1e82-6c76-4a0e-bfde-cc38419b8c37)
-  - בסיס הנתונים לפני העדכון:
-![image](https://github.com/EsterNadler/DBProject322346768_325443240/assets/116155777/2f8893df-130b-4e43-9db0-fb2e4bd90884)
-  - בסיס הנתונים אחרי העדכון:
-![image](https://github.com/EsterNadler/DBProject322346768_325443240/assets/116155777/64787287-afa9-444d-8e82-daf782e0612b)
+- שאילתא למחיקת מאמנים מעל גיל 90 ומתאמנים מגיל 120:
+- ![מחיקה 1](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/54fd879f-0a0a-4aa2-8e0b-b5c7e1c056af)
 
-- שאילתא למחיקת המשתתפים שעזבו לפני שנתיים או יותר ולא הצטרפו מאז:
-![image](https://github.com/EsterNadler/DBProject322346768_325443240/assets/116155777/04060c10-12cc-4702-a478-d4274e7b2c04)
-  - בסיס הנתונים לפני העדכון:
-![image](https://github.com/EsterNadler/DBProject322346768_325443240/assets/116155777/8e94f07a-9d2b-43e0-b8df-2e4ddd98dfd4)
-  - בסיס הנתונים אחרי העדכון:
-![image](https://github.com/EsterNadler/DBProject322346768_325443240/assets/116155777/c9ed1d80-2094-47d7-9f14-286d90f9c517)
+  - בסיס הנתונים לפני המחיקה:
+![מחיקה לפני 1](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/79acaefa-4d42-41af-bd03-9c4388d1821c)
+
+  - בסיס הנתונים אחרי המחיקה:
+![מחיקה אחרי 1](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/13d1b4f7-88f0-44fb-a350-be362a9f569b)
+
+
+
+- שאילתא למחיקת פריטים שלא השתמשו בהם באף אימון, אין להם משקל ויש לפחות 50 פריטים מאותו סוג:
+![מחיקה 2](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/62ac6440-a3b1-46f6-b6f9-5f2b6f7e489a)
+
+  - בסיס הנתונים לפני המחיקה:
+![מחיקה לפני 2](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/c04bcdb0-d0ee-405e-9bf0-580141553656)
+
+  - בסיס הנתונים אחרי המחיקה:
+![מחיקה אחרי 2](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/b396fc94-9c73-41c9-9a51-0da88418667e)
+
 
 ## הוספת constrains
 - תנאי לבדיקה שגיל המינימום לסדנא קטן מגיל המקסימום:
