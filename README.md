@@ -303,23 +303,29 @@ CREATE TABLE Actual_Training
 
 ## הוספת constrains
 - תנאי לבדיקה שמטרת הפריט (ITEM.PURPOSE) אינה NULL:
+- 
 ![אילוץ1אלטר](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/40460673-86ca-435a-9bea-0bdd2dc68460)
 
  - הפרת התנאי:
+ - 
 ![אילוץ1](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/71fa34ec-f79e-44ae-8570-e89696bb5ab1)
 
 
 - תנאי להשמת ערך ברירת מחדל "no-constraints" במקרה ולא הוכנס ערך לשדה constraint באימון:
+- 
 ![אילוץ2אלטר](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/4ff229c6-8cd5-4755-9ecd-2c5e0b076f27)
 
  - ביצוע התנאי:
+ - 
 ![אילוץ2](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/5382824b-499f-4a34-a104-afa317dd2bd3)
 
 
 - תנאי לבדיקה שבאימון בפועל מאמן לא מאמן את עצמו:
+- 
 ![אילוץ3אלטר](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/cd2d50d3-f914-4317-af09-6b73d434e028)
 
 - הפרת התנאי:
+- 
 ![אילוץ3](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/79e7bef5-d78c-43bd-bb3e-e01dfd925b2a)
 
 
