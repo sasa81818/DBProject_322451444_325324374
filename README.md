@@ -380,7 +380,7 @@ CREATE TABLE Actual_Training
 ![test run procedure 1](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/77c2dcb7-aa94-439f-abee-46cb3db61488)
 
 
-    - תוצאה:
+  - תוצאה:
       
 ![test result procedure 1](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/5b7bccd8-0f59-41e5-b04f-58dd3bb4248f)
 
@@ -388,7 +388,7 @@ CREATE TABLE Actual_Training
 
 ![procedure 1 after](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/46139791-0a4d-44a6-9453-5833c80ed2f5)
 
-      - הרצת השאילתה עם חודש שבו אין מאמנים מתאימים:
+   - הרצת השאילתה עם חודש שבו אין מאמנים מתאימים:
   
 ![procedure 1 error](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/16b3de59-f5db-445c-baa2-1004f44a7872)
 
@@ -427,17 +427,18 @@ CREATE TABLE Actual_Training
 
 
 
-    - תוצאה:
+  - תוצאה:
 
   ![test results](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/34cf1b5f-5d8d-4a5c-a3a6-f81873c1f4cd)
 
 
-  - בסיס הנתונים לאחר העדכון:
+ - בסיס הנתונים לאחר העדכון:
 
 ![procedure 2 after](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/75c17f69-2e7d-4b82-a7c2-71958a5214b8)
 
 
-      - הרצת השאילתה עם חודש שבו אין אימונים מתאימים:
+
+ - הרצת השאילתה עם חודש שבו אין אימונים מתאימים:
       
 ![error](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/227e92b6-4d10-4bce-9f0d-c2d6fe4e1dbc)
 
