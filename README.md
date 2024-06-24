@@ -1,4 +1,4 @@
-## מיני פרויקט בבסיסי נתונים- ניהול מערכת תכניות אימון (כושר) אישיות
+![before](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/9fb06647-f3fc-4873-975b-ce5da08ddbce)## מיני פרויקט בבסיסי נתונים- ניהול מערכת תכניות אימון (כושר) אישיות
 מגישות:
 טובה רוטנשטיין-322451444
 ושרי זילברליכט-325324374
@@ -541,42 +541,42 @@ CREATE TABLE Actual_Training
 ### תכנית ראשית ב:
 - פרוצדורה המקבלת כקלט סוג אימון וחודש. הפרוצדורה בודקת תקינות קלט, במידה והקלט לא תקין זורקת חריגה. הפרוצדורה נותנת הנחה של 20% עבור אימונים בפועל מסוג האימון שנשלח בחודש הנתון בשנה הקרובה. הפרוצדורה מדפיסה הודעה מתאימה עם מס' האימונים שקיבלו הנחה. במידה ולא נמצאו אימונים שמגיעה להם הנחה, הפרוצדורה זורקת חריגה.
    
-   - קוד התכנית:
-     
-![part1](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/bd223a78-32b0-41a3-838d-523c202dbdc5)
+   - קוד התכנית:     
 
+![part1](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/eee6ca21-6b45-4915-a7ea-317bbc346fd4)
 
-![part2](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/0299ba4b-18a0-4e88-acc9-a5da303c9011)
+![part2](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/25f38706-4144-4e74-a269-03f62ecc9ce3)
 
+![part3](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/b8b3a38c-f986-471a-ac50-7cce6780b7b6)
 
-![part3](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/4f3870af-2a91-49cf-8d15-c781daf81750)
+![part4](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/8a106a61-b32a-413e-930a-e7c374f65349)
 
 
 
    ####  בסיס הנתונים לפני הרצת התכנית:
   
-   - פרטי האימונים:
+   - פרטי האימונים (שאילתת עזר):
      
-![procedure 2 training code](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/df7fa215-bccc-452c-a56a-d5d1975b2006)
+![before](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/13ab625a-aae5-4fb9-9741-1a99cc314c75)
 
-
-![actual training procedure 2 before](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/e859f75c-c2db-4460-b32d-fe84b84ede23)
 
 
 
   - הרצת התכנית:
 
-![test](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/c96816e0-121e-4d1c-a480-86ec61c4a211)
+![image](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/733f4ff6-67a6-404e-9a4f-b58d0dc5889a)
 
 
 
   - תוצאה:
 
-  ![test results](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/34cf1b5f-5d8d-4a5c-a3a6-f81873c1f4cd)
+![image (1)](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/a35120f1-9d41-48bd-998e-0dfad825826b)
+
+
 
 
  - בסיס הנתונים לאחר העדכון:
 
-![procedure 2 after](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/75c17f69-2e7d-4b82-a7c2-71958a5214b8)
 
+![Screenshot 2024-06-24 175552](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/a6daf774-49b2-426c-93e2-c382c1d79734)
 
