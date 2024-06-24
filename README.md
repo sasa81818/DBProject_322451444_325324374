@@ -339,6 +339,50 @@ CREATE TABLE Actual_Training
 ### פונקציות
 
 ### פרוצדורות
+ - פרוצדורה המקבלת כקלט חודש, מספר אימונים ושנה. הפרוצדורה בודקת תקינות קלט, במידה והקלט לא תקין זורק חריגה. הפרוצדורה מעדכנת עבור מאמנים שבחודש שנשלח בשנה שנשלחה אימנו כמס' הפעמים שנשלח או יותר את הדירוג שלהם. במידה והדירוג הינו כבר המקסימלי המאמן מקבל העלאה של 5% בשכר. הפרוצדורה מדפיסה הודעה מתאימה וכן סיכום של המאמנים שעודכנו. במידה ולא נמצאו מאמנים הפרוצדורה זורקת חריגה.
+
+   - קוד הפרוצדורה:
+
+![proc1 part1](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/6f2c680d-6c56-47e6-a834-50fdea7192da)
+  
+![proc1 part2](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/8aa59a1a-ee5b-45fe-a8dc-d8a25846b360)
+
+ ![proc1 part3](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/9fce8a45-c1c7-4600-b30d-140745848f00)
+
+![proc1 part4](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/5a9886c4-1fe8-4dfc-9891-d7240803ab5d)
+
+
+
+
+   -  בסיס הנתונים לפני הרצת הפרוצדורה:
+   -  שאילתת עזר:
+   -  ![help procedure 1](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/eef0558c-7594-4bdd-b889-f9104992b3ed)
+
+   - פרטי המאמנים והאימונים:
+
+![details of trainers before procedure 1](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/183746e3-fef0-4efd-82bc-fe683ed50076)
+
+
+![procedure 1 names of coaches](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/c568a71b-c1cd-4923-8f7c-a98cbf820d24)
+
+
+![procedure 1 actual training show relevant ids](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/96e481b3-cdda-4916-82b0-dc006698f613)
+
+
+
+  -הרצת השאילתה:
+![test run procedure 1](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/77c2dcb7-aa94-439f-abee-46cb3db61488)
+
+
+    -תוצאה:
+![test result procedure 1](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/5b7bccd8-0f59-41e5-b04f-58dd3bb4248f)
+
+  -בסיס הנתונים לאחר העדכון:
+![procedure 1 after](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/46139791-0a4d-44a6-9453-5833c80ed2f5)
+
+      -הרצת השאילתה עם חודש שבו אין מאמנים מתאימים:
+![procedure 1 error](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/16b3de59-f5db-445c-baa2-1004f44a7872)
+
 
 ### תכניות ראשיות
 
