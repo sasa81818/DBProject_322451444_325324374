@@ -354,7 +354,7 @@ CREATE TABLE Actual_Training
 
 
 
-   -  בסיס הנתונים לפני הרצת הפרוצדורה:
+   ####  בסיס הנתונים לפני הרצת הפרוצדורה:
    -  שאילתת עזר:
    -  ![help procedure 1](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/eef0558c-7594-4bdd-b889-f9104992b3ed)
 
@@ -370,17 +370,17 @@ CREATE TABLE Actual_Training
 
 
 
-  -הרצת השאילתה:
+  - הרצת השאילתה:
 ![test run procedure 1](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/77c2dcb7-aa94-439f-abee-46cb3db61488)
 
 
-    -תוצאה:
+    - תוצאה:
 ![test result procedure 1](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/5b7bccd8-0f59-41e5-b04f-58dd3bb4248f)
 
-  -בסיס הנתונים לאחר העדכון:
+  - בסיס הנתונים לאחר העדכון:
 ![procedure 1 after](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/46139791-0a4d-44a6-9453-5833c80ed2f5)
 
-      -הרצת השאילתה עם חודש שבו אין מאמנים מתאימים:
+      - הרצת השאילתה עם חודש שבו אין מאמנים מתאימים:
 ![procedure 1 error](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/16b3de59-f5db-445c-baa2-1004f44a7872)
 
 
