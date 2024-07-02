@@ -381,11 +381,11 @@ CREATE TABLE Actual_Training
 
   - הרצת הפונקציה:    
 
-![run](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/ee54d00a-958c-47b6-9d2c-b2fd6bc00fbd)
+![run](https://github.com/sasa81818/DBProject_322451444_325324374/assets/101480321/849c28cc-6a37-4318-8772-34d4a74c8a66)
 
   - תוצאה:
 
-![result](https://github.com/sasa81818/DBProject_322451444_325324374/assets/116828618/47aa9987-3a63-4f24-a18f-66a4b88cd5fb)
+![res](https://github.com/sasa81818/DBProject_322451444_325324374/assets/101480321/71fb765e-c59c-4145-ac1f-2092a535a3f0)
 
  - הרצת הפונקציה עם תז שגויה:
     
