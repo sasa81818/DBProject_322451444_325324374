@@ -720,7 +720,9 @@ CREATE TABLE Actual_Training
 #### TRAINER
 
 - הטבלה שקיבלנו:
-  
+- 
+  ![Screenshot 2024-07-21 014406](https://github.com/user-attachments/assets/e497fdf6-2c71-49cf-876f-2a978db74a49)
+
 - הטבלה שלנו:
   
   ![טריינר לפני השינוי](https://github.com/user-attachments/assets/7c49c09f-5e9b-48a9-aa10-f6144b16d04b)
