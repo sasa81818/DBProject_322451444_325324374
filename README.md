@@ -603,7 +603,7 @@ CREATE TABLE Actual_Training
 
 ### שינוי שם בטבלאות חופפות
 
-- בטבלאות שקיבלנו היו שתי טבלאות עם שמות חופפים, בכדי לא לדרוס את המידע השמור בטבלאות שלנו, שיננו להן את השם באופן זמני:
+בטבלאות שקיבלנו היו שתי טבלאות עם שמות חופפים, בכדי לא לדרוס את המידע השמור בטבלאות שלנו, שיננו להן את השם באופן זמני:
 
 ![rename](https://github.com/user-attachments/assets/7f385ee3-651a-4436-892f-960372f86907)
 
@@ -616,7 +616,7 @@ CREATE TABLE Actual_Training
 ![ERD נועה](https://github.com/user-attachments/assets/a7be57a9-b8a9-40ad-977e-3d4c1415c9fe)
 
 ### שחזור ERD
-- על סמך הקשרים בDSD והמפתחות הזרים, הסקנו שיש קשר של ירושה בין PERSON לTRAINEE וCOACH. הסקנו סכמות של קשרים מסוג רבים לרבים מטבלאות בעלות מפתחות בלבד. הסקנו קשרים של "בדיוק אחד" כאשר לא היתה טבלה לקשר והיה מפתח זר באחד מהן (וכן לפי ההגיון). הסקנו קשר חלש בעקבות השימוש במפתחות של שתי הטבלאות כמפתח הטבלה הראשי:
+על סמך הקשרים בDSD והמפתחות הזרים, הסקנו שיש קשר של ירושה בין PERSON לTRAINEE וCOACH. הסקנו סכמות של קשרים מסוג רבים לרבים מטבלאות בעלות מפתחות בלבד. הסקנו קשרים של "בדיוק אחד" כאשר לא היתה טבלה לקשר והיה מפתח זר באחד מהן (וכן לפי ההגיון). הסקנו קשר חלש בעקבות השימוש במפתחות של שתי הטבלאות כמפתח הטבלה הראשי:
 
  ![ERD משוחזר תמונה](https://github.com/user-attachments/assets/cbc08c26-edfd-4e2c-addd-fdc3ab63004d)
 
@@ -624,13 +624,146 @@ CREATE TABLE Actual_Training
 ### אינטגרציה
 
 ### יצירת ERD משותף
-- נושא הפרויקט שקיבלנו הינו "ניהול חדרי כושר", והנושא שלנו היה "אימונים אישיים". בחרנו לשלב את הפרויקטים כך שהמאמנים והמתאמנים שלנו יהיו גם כן המאמנים והמתאמנים בחדר הכושר של הפרויקט שקיבלנו:
-    
+נושא הפרויקט שקיבלנו הינו "ניהול חדרי כושר", והנושא שלנו היה "אימונים אישיים". בחרנו לשלב את הפרויקטים כך שהמאמנים והמתאמנים שלנו יהיו גם כן המאמנים והמתאמנים בחדר הכושר של הפרויקט שקיבלנו (פירוט לגבי שיקול הדעת בנוגע לשדות הישויות הרלוונטיות יפורט להלן).
+
   ![united](https://github.com/user-attachments/assets/f0c62533-db57-4410-9a00-4dd47714f2ab)
 
+### יצירת DSD משותף
 
-   - [יצירת DSD משותף](#יצירת-DSD-משותף)
-      - [העברת המידע](#העברת-המידע)
+![DSD מאוחד](https://github.com/user-attachments/assets/a41e900f-f0ee-464a-995a-bbf72f4b8c8f)
+
+### העברת המידע
+
+הטבלאות בינהן היינו צריכות להעביר מידע היו PERSON, COACH וTRAINEE
+
+#### PERSON
+- הטבלה שקיבלנו:
+
+    ![פרסון שלהם](https://github.com/user-attachments/assets/b0c148d8-be17-4117-ab85-8fef1ef4d21f)
+
+- הטבלה שלנו:
+    
+    ![פרסון לפני השינויים](https://github.com/user-attachments/assets/16775084-ee18-4387-9fdc-55888145a05d)
+
+- השינויים:
+  
+    ![פרסון אחרי השינויים](https://github.com/user-attachments/assets/12745292-969d-4be4-b7df-36f3fc0b3d1a)
+
+    ![השינויים של פרסון](https://github.com/user-attachments/assets/3dbcefd0-5953-4909-b1b9-6322be5b4a12)
+
+- השיקולים: בכל השדות עם הגבלת הגודל שינינו לגדול מבין 2 הטבלאות (כדון מ9 ל10 ומ30 ל50 וכו). שדות שלנו שהשארנו ולא היו להן הפכנו לnullable כדי שלא תהיה בעיה בהעברת המידע שלהן אלינו. וכן הוספנו שדה חדש nullable מהטבלה שלהן (מגדר). בחרנו להכניס את full name שלהן לfirst name שלנו, ולהפוך את שם משפחה לnullable וכן את הכתובות שלהן להכניס לstreet שלנו (מבחינת הנתונים בטבלה זה היה הגיוני) ולהפוך את city ו house number לnullable.
+
+- בדיקת כמות הנתונים קודם העברת הנתונים:
+  
+![כמות בפרסון1](https://github.com/user-attachments/assets/33d76e68-2533-4b85-b824-0b1f6df20906)
+
+![כמות בפרסון](https://github.com/user-attachments/assets/1366de31-b24e-428d-8407-576663be497b)
+
+- בדיקה שאין מפתחות חופפים (כפילויות במפתח):
+
+![אין מידע חופף מבחינת מפתח](https://github.com/user-attachments/assets/465b195b-f4ae-4bda-98f0-17c903fa6c29)
+
+- העברת הנתונים:
+  
+![הכנסה לפרסון1](https://github.com/user-attachments/assets/2d746bbb-faae-4150-98af-cb921d6f2ff4)
+
+- בדיקה:
+
+![הפריטים נוספו לפרסון1](https://github.com/user-attachments/assets/08a67c0d-2dd4-43ef-b0c9-dddedcde929e)
+
+- הטבלה המאוחדת:
+
+![הטבלה המאוחדת פרסון](https://github.com/user-attachments/assets/7f614d0a-6771-4f89-8480-6c6dd83ff95f)
+
+
+#### TRAINEE
+
+- הטבלה שקיבלנו:
+- 
+![טרייני שלהם](https://github.com/user-attachments/assets/19e56e88-a27f-40e1-b0e7-3cd7751b7909)
+
+- הטבלה שלנו:
+- 
+    ![טרייני לפני השינויים](https://github.com/user-attachments/assets/1959fec2-cffd-4142-9008-9ccb40617327)
+
+- השינויים:
+- 
+  ![טרייני אחרי השינויים](https://github.com/user-attachments/assets/074638b4-1d5d-4ab0-b5b5-d481ad6f4a07)
+  
+![השינויים של טרייני](https://github.com/user-attachments/assets/d9facbd4-211f-49b2-a3eb-797ec5b5d972)
+
+
+- השיקולים: בכל השדות עם הגבלת הגודל שינינו לגדול מבין 2 הטבלאות (כדון מ9 ל10 ומ30 ל50 וכו). הוספנו שדות חדשים nullable מהטבלה שלהן (פרטי תשלום ותכנית אימון). ויתרנו על השדה "גיל" שלהן כיוון שיש לנו בPerson שדה "תאריך לידה"
+- בחרנו להמיר את סוג המנוי שלהן למשך מנוי שלנו. לשם כך בדקנו מהם סוגי המנוי שלהן:
+  
+![בדיקה בשביל טרייני](https://github.com/user-attachments/assets/eb31f0e4-976f-49d0-9ab8-40adcee32899)
+
+- בדיקת כמות הנתונים קודם העברת הנתונים:
+
+  ![כמות בטרייני1](https://github.com/user-attachments/assets/c1ea20a5-d727-413e-b1c5-7b76d76439b8)
+
+![כמות בטרייני](https://github.com/user-attachments/assets/95226b3f-3fea-4121-8db9-68a757698445)
+
+- העברת הנתונים
+
+![הכנסה לטרייני1](https://github.com/user-attachments/assets/61db3ba9-8bd1-4a19-8b55-ef096a57bd36)
+  
+- בדיקה:
+
+![הפריטים נוספו לטרייני 1](https://github.com/user-attachments/assets/bd991461-6de3-494e-b13d-a7213544dec5)
+
+- הטבלה המאוחדת:
+  
+![הטבלה המאוחדת טרייני](https://github.com/user-attachments/assets/21dc6455-7d42-4824-a044-3ee7c39388f2)
+
+
+#### TRAINER
+
+- הטבלה שקיבלנו:
+- 
+![טרייני שלהם](https://github.com/user-attachments/assets/19e56e88-a27f-40e1-b0e7-3cd7751b7909)
+
+- הטבלה שלנו:
+- 
+    ![טרייני לפני השינויים](https://github.com/user-attachments/assets/1959fec2-cffd-4142-9008-9ccb40617327)
+
+- השינויים:
+- 
+  ![טרייני אחרי השינויים](https://github.com/user-attachments/assets/074638b4-1d5d-4ab0-b5b5-d481ad6f4a07)
+  
+![השינויים של טרייני](https://github.com/user-attachments/assets/d9facbd4-211f-49b2-a3eb-797ec5b5d972)
+
+
+- השיקולים: בכל השדות עם הגבלת הגודל שינינו לגדול מבין 2 הטבלאות (כדון מ9 ל10 ומ30 ל50 וכו). הוספנו שדות חדשים nullable מהטבלה שלהן (פרטי תשלום ותכנית אימון). ויתרנו על השדה "גיל" שלהן כיוון שיש לנו בPerson שדה "תאריך לידה"
+- בחרנו להמיר את סוג המנוי שלהן למשך מנוי שלנו. לשם כך בדקנו מהם סוגי המנוי שלהן:
+  
+![בדיקה בשביל טרייני](https://github.com/user-attachments/assets/eb31f0e4-976f-49d0-9ab8-40adcee32899)
+
+- בדיקת כמות הנתונים קודם העברת הנתונים:
+
+  ![כמות בטרייני1](https://github.com/user-attachments/assets/c1ea20a5-d727-413e-b1c5-7b76d76439b8)
+
+![כמות בטרייני](https://github.com/user-attachments/assets/95226b3f-3fea-4121-8db9-68a757698445)
+
+- העברת הנתונים
+
+![הכנסה לטרייני1](https://github.com/user-attachments/assets/61db3ba9-8bd1-4a19-8b55-ef096a57bd36)
+  
+- בדיקה:
+
+![הפריטים נוספו לטרייני 1](https://github.com/user-attachments/assets/bd991461-6de3-494e-b13d-a7213544dec5)
+
+- הטבלה המאוחדת:
+  
+![הטבלה המאוחדת טרייני](https://github.com/user-attachments/assets/21dc6455-7d42-4824-a044-3ee7c39388f2)
+
+
+
+
+
+
+- 
+    
     - [מבטים](#מבטים)
       - [מבט א](#מבט-א)
         -  [יצירה](#יצירה)
