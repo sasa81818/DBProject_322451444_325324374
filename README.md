@@ -720,54 +720,135 @@ CREATE TABLE Actual_Training
 #### TRAINER
 
 - הטבלה שקיבלנו:
-- 
-![טרייני שלהם](https://github.com/user-attachments/assets/19e56e88-a27f-40e1-b0e7-3cd7751b7909)
-
+  
 - הטבלה שלנו:
-- 
-    ![טרייני לפני השינויים](https://github.com/user-attachments/assets/1959fec2-cffd-4142-9008-9ccb40617327)
+  
+  ![טריינר לפני השינוי](https://github.com/user-attachments/assets/7c49c09f-5e9b-48a9-aa10-f6144b16d04b)
 
 - השינויים:
-- 
-  ![טרייני אחרי השינויים](https://github.com/user-attachments/assets/074638b4-1d5d-4ab0-b5b5-d481ad6f4a07)
   
-![השינויים של טרייני](https://github.com/user-attachments/assets/d9facbd4-211f-49b2-a3eb-797ec5b5d972)
+![טריינר אחרי שינויים](https://github.com/user-attachments/assets/5654697b-4874-4f85-8071-db53b155f291)
 
+![השינויים של טריינר](https://github.com/user-attachments/assets/d17e9499-4352-4878-8487-6519d51f7f89)
 
-- השיקולים: בכל השדות עם הגבלת הגודל שינינו לגדול מבין 2 הטבלאות (כדון מ9 ל10 ומ30 ל50 וכו). הוספנו שדות חדשים nullable מהטבלה שלהן (פרטי תשלום ותכנית אימון). ויתרנו על השדה "גיל" שלהן כיוון שיש לנו בPerson שדה "תאריך לידה"
-- בחרנו להמיר את סוג המנוי שלהן למשך מנוי שלנו. לשם כך בדקנו מהם סוגי המנוי שלהן:
-  
-![בדיקה בשביל טרייני](https://github.com/user-attachments/assets/eb31f0e4-976f-49d0-9ab8-40adcee32899)
+- השיקולים: בכל השדות עם הגבלת הגודל שינינו לגדול מבין 2 הטבלאות (כדון מ9 ל10 ומ7 ל15 וכו). הוספנו שדות חדשים nullable מהטבלה שלהן (התמחות וניסיון). את השדה "רייטינג" שלנו הפכנו לnullable. 
+- כיוון שלהן היה "ניסיון" כמחרוזת, ולנו היה "ותק" כמס' (שנים) בחרנו להמיר את המידע שלנו למחרוזת ולמחוק את העמודה המקורית שלנו:
+    - המרה למחרוזת:
+ ![המרת הניסיון לוותק שלב 1](https://github.com/user-attachments/assets/9f613fe1-e031-4c7d-8ce9-dd710d47bce3)
+
+    - מחיקת העמודה המקורית:
+ 
+      ![המרת הניסיון לוותק שלב 2](https://github.com/user-attachments/assets/d377c29f-a652-4438-99aa-71c465ba75ba)
+
+  - הטבלה אחרי השינויים הנוספים:
+  - 
+![טריינר אחרי השינויים הנוספים](https://github.com/user-attachments/assets/5f30e931-d35b-44f0-9436-da8876fa133b)
 
 - בדיקת כמות הנתונים קודם העברת הנתונים:
+  
+![כמות בטריינר](https://github.com/user-attachments/assets/fde2ff61-b2c2-4ec6-b5df-aa7a3a9ef0a4)
 
-  ![כמות בטרייני1](https://github.com/user-attachments/assets/c1ea20a5-d727-413e-b1c5-7b76d76439b8)
-
-![כמות בטרייני](https://github.com/user-attachments/assets/95226b3f-3fea-4121-8db9-68a757698445)
+  ![כמות בקואצ](https://github.com/user-attachments/assets/ee8cc080-b939-4099-8ec2-a7348677b9e4)
 
 - העברת הנתונים
 
-![הכנסה לטרייני1](https://github.com/user-attachments/assets/61db3ba9-8bd1-4a19-8b55-ef096a57bd36)
-  
+  ![הכנסה לטריינר](https://github.com/user-attachments/assets/5c0e56bd-b080-463f-857e-b0ec28b13046)
+
 - בדיקה:
 
-![הפריטים נוספו לטרייני 1](https://github.com/user-attachments/assets/bd991461-6de3-494e-b13d-a7213544dec5)
+![הפריטים נוספו לטריינר](https://github.com/user-attachments/assets/caf6b937-845f-4d9c-a469-54c3e45da5f1)
 
 - הטבלה המאוחדת:
+
+![הטבלה המאוחדת טריינר](https://github.com/user-attachments/assets/7a488191-6f57-43b1-9bbd-3a2db04a2ea5)
+
+
+#### טיפול במפתחות זרים לאחר שינוי הטבלאות:
+- בטבלאות בהן המפתחות של אחת הטבלאות הרלוונטיות היוו מפתחות זרים, מחקנו את המפתחות המקוריים ויצרנו מפתח זר חדש לטבלאות שלנו אליהן העברנו את המידע:
+- הטבלה takes:
   
-![הטבלה המאוחדת טרייני](https://github.com/user-attachments/assets/21dc6455-7d42-4824-a044-3ee7c39388f2)
+  ![טייקס עם מפתח זר לטרייני](https://github.com/user-attachments/assets/34647d86-5c03-4094-b615-8732718c54eb)
+  
+![טיפול במפתח זר בטייקס](https://github.com/user-attachments/assets/70523999-b70c-4c5d-95b6-a99dc7a3bbe0)
+
+![מחיקת מפתח זר ישן טייקס](https://github.com/user-attachments/assets/86da8a1d-b733-4b6b-aaea-2fa5c7637a61)
+
+![המפתח הזר עודכן בטייקס](https://github.com/user-attachments/assets/78fa9742-d3ed-491e-97bf-3c64aec5ff6f)
 
 
+- הטבלה trains in:
+  
+ ![טריינס אין לפני שינוי מפתח זר](https://github.com/user-attachments/assets/edc96a11-ebe5-4dc1-8b87-7626481a6c29)
+
+![קוד של שינוי מפתח זר טריינס אין](https://github.com/user-attachments/assets/00f1f20c-7611-4457-85cf-0e784acb82db)
+
+![מפתח זר טריינס אין הוסר](https://github.com/user-attachments/assets/1f1b7730-54d4-4dff-ae80-cc12b994f2ef)
+
+![מפתח זר בטריינס אין עודכן](https://github.com/user-attachments/assets/0cdaaea7-4174-466f-ac67-a801013896ed)
 
 
+- הטבלה class lesson:
+  
+![קלאסלסון מפתח זר](https://github.com/user-attachments/assets/4fb79c53-809b-4daa-9bf5-4a9945ebe8b7)
+
+![קוד של שינוי מפתח זר קלאסלסון](https://github.com/user-attachments/assets/37c09038-1b02-4fc4-8f4c-0048b2de959c)
+
+![מפתח זר חדש קלאסלסון](https://github.com/user-attachments/assets/c9f75277-5ab2-4f93-a443-412433533ae9)
+
+#### מחיקת הטבלאות המיותרות:
+
+![מחיקת הטבלאות המיותרות](https://github.com/user-attachments/assets/edec27b7-8906-42cf-9e2d-b921201ef954)
+
+#### החזרת השמות המקוריים:
+
+![החזרת השמות המקוריים](https://github.com/user-attachments/assets/568215c1-851d-4478-8d9d-32e2ec82c6a6)
+
+#### בדיקה שכל הקשרים נשמרו לאחר העברת המידע:
+
+![בדיקה שכל הקשרים נשמרו](https://github.com/user-attachments/assets/f94193df-0078-4e9a-b643-72330cb74d45)
 
 
+### בדיקת השאילתות:
+- הבעייתיות היחידה בשאילתות הקיימות שלנו הייתה המרת השדה "ותק" ל"ניסיון":
 - 
+![כנל שימוש בסניוריטי שאילתות פרמטרים](https://github.com/user-attachments/assets/30baf54c-aa84-438f-aeba-4f3e9161aa59)
+
+![כנל שימוש בסניוריטי](https://github.com/user-attachments/assets/c508a6d0-7695-45eb-bb18-b11c0bc1ffed)
+
+![עדכון שאילתא שהשתמשה בסניוריטי](https://github.com/user-attachments/assets/0082bc37-e4d0-43b6-9f9b-3b18834cc5ee)
+
+
+## מבטים
+
+
+### מבט א
+מבט המחזיר נתונים של אימון אישי ספציפי. כולל שמות ותז של המאמן והמתאמן, תאריך, שעת ומיקום האימון. מחיר, סוג ומשך האימון בדקות, וכן פריט אימון שנמצא בשימוש באימון זה ומטרתו. 
+### יצירה
+
+![create view 1](https://github.com/user-attachments/assets/ab2f1ffd-ca34-475a-bcb7-5adce4088aee)
+
+![view1](https://github.com/user-attachments/assets/a8f2c09f-b32b-4710-9238-ae6fcd82879d)
+
+
+### שאילתות
+- שאילתא א: מחזירה עבור כל מאמן את התז, שמו הפרטי ושם משפחתו וכן את ממוצע המחירים של האימונים שאותו מאמן אימן, ממויין בסדר יורד לפי הממוצע הנ"ל:
+
+- ![query1 view 1](https://github.com/user-attachments/assets/a41104b2-7c86-4a5c-b4c0-862780329df2)
+
+- שאילתא ב: מחזירה עבור כל מתאמן את התז, שמו הפרטי ושם משפחתו וכן את מספר סוגי האימונים בהם השתתף, ממויין בסדר יורד לפי מספר האימונים הנ"ל:
+  
+![query2 view 1](https://github.com/user-attachments/assets/353bd3b1-5b5c-4fed-8ff5-22dff9f208ce)
+
+
+### מבט ב
+
+### יצירה
+![create view 2](https://github.com/user-attachments/assets/7894e096-8d06-4a50-9d4b-ddb9a2d85290)
+
+![view2](https://github.com/user-attachments/assets/c8000f3a-d059-4a7d-a33e-98e02ecb3277)
+
+
+### שאילתות
+
+
     
-    - [מבטים](#מבטים)
-      - [מבט א](#מבט-א)
-        -  [יצירה](#יצירה)
-        - [שאילתות](#שאילתות) 
-      - [מבט ב](#מבט-ב)
-        -  [יצירה](#יצירה)
-        - [שאילתות](#שאילתות)
